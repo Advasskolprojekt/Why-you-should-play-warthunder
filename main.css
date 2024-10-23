@@ -77,9 +77,20 @@ div.container {
     padding: 5px;
   }
   
+  
   /* Clear floats after image containers */
   .row::after {
     content: "";
     clear: both;
     display: table;
   }
+  
+  .videocontainer {
+    display: flex;
+    gap: 10px; /* Optional: space between the videos */
+}
+
+.videocontainer video {
+    width: 50%; /* Make each video take up half of the container's width */
+    height: auto; /* Maintain aspect ratio */
+}
