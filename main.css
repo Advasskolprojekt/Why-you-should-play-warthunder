@@ -84,13 +84,13 @@ div.container {
     clear: both;
     display: table;
   }
-  
+
   .videocontainer {
     display: flex;
-    gap: 10px; /* Optional: space between the videos */
+    gap: 10px; 
 }
 
 .videocontainer video {
-    width: 50%; /* Make each video take up half of the container's width */
-    height: auto; /* Maintain aspect ratio */
+    width: 50%; 
+    height: auto; 
 }
