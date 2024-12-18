@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* för att reseta sidan*/
+}
+.navbar{
+    background-color: #bfc02c;
+    overflow: hidden;/* Döljer flytande element som sticker ut */
+}
+.navbar a{ /*a taggen i navbar flyttar kommer sakerna här under hända*/
+    float: left;
+    text-decoration: underline; /* Att det finns en underline på "a" taggens text*/
+    padding: 20px; /* padding är området mellan contexten och borden*/
+    border:1px solid white; /*bordern på a "a" taggen */
+    display: block; /* så att t.ex. A taggen inte startar i en ny linje men samma linje som de andra. */
+
+}
+.navbar a:hover{ /* hover över navbar så kommer det ändra färg*/
+    background-color: midnightblue;
+
+}
+
+.navbar a:last-of-type{ /*så att A taggen flyttar till höger*/
+    float: right;
+}
